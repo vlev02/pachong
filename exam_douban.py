@@ -1,8 +1,6 @@
-# -*- coding: utf-8 -*-
+﻿# -*- coding: utf-8 -*-
 """
 Created on Tue Aug 20 19:57:16 2019
-
-@author: l50004076
 """
 import urllib
 from bs4 import BeautifulSoup

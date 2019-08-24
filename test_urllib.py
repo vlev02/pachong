@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+﻿# -*- coding: utf-8 -*-
 """我在菊厂学爬虫——urllib"""
 import urllib
 
@@ -6,8 +6,8 @@ import urllib
 def proxy_init():
     """代理配置"""
     proxy_support = urllib.request.ProxyHandler(
-        {'http': 'http://l50004076:lx271133.@proxycn2.huawei.com:8080',
-         'https': 'http://l50004076:lx271133.@proxycn2.huawei.com:8080'})
+        {'http': 'http://user:password@proxycn2.huawei.com:8080',
+         'https': 'http://user:password@proxycn2.huawei.com:8080'})
     opener = urllib.request.build_opener(proxy_support)
     urllib.request.install_opener(opener)
 

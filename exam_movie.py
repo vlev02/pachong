@@ -1,10 +1,8 @@
-# -*- coding: utf-8 -*-
+﻿# -*- coding: utf-8 -*-
 """
 豆瓣电影排行榜
 
 Created on Wed Aug 21 08:52:17 2019
-
-@author: l50004076
 """
 import os
 import urllib
@@ -20,8 +18,8 @@ POSTER_DIR = os.path.join(file_dir, 'movie_posters')
 def proxy_init():
     """代理配置"""
     proxy_support = urllib.request.ProxyHandler(
-        {'http': 'http://l50004076:lx271133.@proxycn2.huawei.com:8080',
-         'https': 'http://l50004076:lx271133.@proxycn2.huawei.com:8080'})
+        {'http': 'http://user:password@proxycn2.huawei.com:8080',
+         'https': 'http://user:password@proxycn2.huawei.com:8080'})
     opener = urllib.request.build_opener(proxy_support)
     urllib.request.install_opener(opener)
     
