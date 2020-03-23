@@ -59,7 +59,7 @@ def html_parse(html_text):
     return infos, next_
     
 def main():
-    proxy_init()
+    # proxy_init()
     
     info_lst = []
     url = MOVIE_URL
